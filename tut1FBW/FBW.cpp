@@ -64,10 +64,11 @@ void FizzBuzzWolf::funct1(){
 
 
 void FizzBuzzWolf::funct2(){
-
+	// numbers must be less than and equal to 20
 	while (number <= 50){
 
 		if (number % 3 == 0){
+			//add flag to be rid of repetition
 			flag = flag + 1;
 		}
 		if (number % 5 == 0){
@@ -123,7 +124,7 @@ int main()
 	FizzBuzzWolf myfuzzOBj;
 	myfuzzOBj.setNumValues();
 	myfuzzOBj.funct1();
-	
+	myfuzzOBj.funct2();
 
 
 }
