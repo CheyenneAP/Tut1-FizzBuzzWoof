@@ -40,6 +40,7 @@ void FizzBuzzWolf::funct1(){
 		else{
 			cout << number << endl;
 		}
+		// output statements 
 
 		if (flag == 1){
 			cout << number << " is divisible by 3\t" << "Fizz" << endl;
