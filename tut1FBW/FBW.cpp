@@ -17,6 +17,11 @@ public:
 };
 
 
+// default contructor 
+void FizzBuzzWolf::setNumValues(){
+	number = 1;
+	c = 0;
+}
 
 
 
