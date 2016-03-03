@@ -1,6 +1,24 @@
 #include <iostream>
-#include <conio.h>
+#include <cmath>
 using namespace std;
+
+// apply the use of classes and methods to the first tut 
+class FizzBuzzWolf
+{
+private:
+	// not accessible by the user
+	int number;
+	int c;
+public:
+	// accessible to methods 
+	void setNumValues(void);
+	void funct1();
+	void funct2();
+};
+
+
+
+
 
 void fizzbuzz(int x){
 	if (x % 3 == 0){
@@ -44,6 +62,5 @@ int main(){
 		num++;
 	}
 
-	// main class above
 
 }
