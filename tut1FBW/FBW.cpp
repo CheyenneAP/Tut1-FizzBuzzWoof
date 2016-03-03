@@ -63,6 +63,61 @@ void FizzBuzzWolf::funct1(){
 
 
 
+void FizzBuzzWolf::funct2(){
+
+	while (number <= 50){
+
+		if (number % 3 == 0){
+			flag = flag + 1;
+		}
+		if (number % 5 == 0){
+			flag = flag + 2;
+		}
+
+		if (number % 7 == 0){
+			flag = flag + 4;
+		}
+
+
+		if (flag == 1){
+			cout << number << " is divisible by 3\t" << "Fizz" << endl;
+		}
+
+		if (flag == 2){
+			cout << number << " is divisible by 5\t" << "Buzz" << endl;
+		}
+		if (flag == 3){
+
+			cout << number << " is divisible by 3 and 5\t" << "FizzBuzz" << endl;
+		}
+
+		if (flag == 4){
+			cout << number << " is divisible by 7\t" << "Wolf" << endl;
+		}
+		if (flag == 7){
+			cout << number << " is divisible by 3,5 and 7" << "FizzBuzzWolf" << endl;
+		}
+		if (flag == 5){
+			cout << number << " is divisible by 3 and 7\t" << "FizzWolf" << endl;
+		}
+		if (flag == 6){
+			cout << number << " is divisible by 5 and 7\t" << "BuzzWolf" << endl;
+		}
+		else{
+
+			cout << number << endl;
+		}
+
+		number++;
+		flag = 0;
+
+
+	}
+};
+
+
+
+
 int main()
 {
 	FizzBuzzWolf myfuzzOBj;
